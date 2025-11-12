@@ -201,10 +201,10 @@ export default function LandingPage() {
                   EN
                 </button>
               </div>
-              <div><a href="#home" className={getHandwritingClass()}>{t.nav.home}</a></div>
-              <div><a href="#features" className={getHandwritingClass()}>{t.nav.features}</a></div>
-              {/* <li><Link href="/excalidraw" className="paper-btn">{t.nav.excalidraw}</Link></li>
-              <li><Link href="/drawio" className="paper-btn">{t.nav.drawio}</Link></li> */}
+              {/* <div><a href="#home" className={getHandwritingClass()}>{t.nav.home}</a></div>
+              <div><a href="#features" className={getHandwritingClass()}>{t.nav.features}</a></div> */}
+              <div className='!m-0 !mr-2'><Link href="/excalidraw" className={`${getHandwritingClass()} paper-btn`}>{t.nav.excalidraw}</Link></div>
+              <div className='!m-0'><Link href="/drawio" className={`${getHandwritingClass()} paper-btn`}>{t.nav.drawio}</Link></div>
             </div>
           </div>
         </div>
